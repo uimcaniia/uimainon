@@ -1,0 +1,1962 @@
+#loading{
+	background-color: black;
+	position : fixed;
+z-index: 9999;
+height : 100%;
+width : 100%;
+cursor : wait;
+text-align: center;
+}
+#loading img {
+left : 50%;
+width: 100%;
+max-width: 800px;
+}
+
+#detecteMobile {
+height:0;
+display:none
+}
+
+nav li {
+font-family:'Northingtown';
+font-size:1.5em
+}
+
+body {
+margin:0;
+text-decoration:none;
+color:#fff;
+font-family:'Nunito',sans-serif;
+background-color:#000;
+cursor:default;
+height:100%;
+position:fixed
+}
+
+html {
+height:100%
+}
+
+ul {
+list-style-type:none
+}
+.colorOne{
+	color: #a992f4;
+	text-shadow: 0 0 3px #000;
+}
+.colorTwo{
+	color: #c8c6ff;
+}
+.colorThree{
+	color: #7451eb;
+}
+a,i {
+color:#AB73FF;
+text-decoration:none
+}
+h1, h2, h3, h4, h5{
+	font-weight: normal;
+}
+a:hover {
+color:#43069d;
+text-decoration:none;
+text-shadow:2px 2px 28px #black
+}
+#transformTranslate{
+overflow: hidden;
+display: none;
+position: relative;
+border-radius: 10px 10px 60px 10px;
+background:#fff;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+#containTransform{
+position: relative;
+background-color:black;
+border-radius: 10px;
+margin: 30px;
+box-shadow: 0 0 20px 10px rgba(64,63,63,0.82) inset;
+text-align: center;
+height: 100%;
+}
+
+#startWebSite {
+background-color:#000000bd;
+position:absolute;
+z-index:2000;
+width:100%;
+height:100%;
+justify-content:center;
+align-items:center
+}
+
+#menuManette {
+width:100%;
+position:absolute;
+height:200px;
+/*min-height:calc(100vh - 200px);*/
+}
+#menuManette #txtMenuLogo{
+	position:absolute;
+z-index:999;
+}
+#menuManette #txtMenuLogo p{
+	margin: 6px 0 0 40px;
+color: #3e219d;
+font-size: 0.8em;
+}
+
+
+#manetteLeft,#manetteRight {
+position:absolute;
+z-index:999;
+bottom:0;
+height:200px;
+width:200px
+}
+
+#manetteLeft {
+left:0
+}
+
+#manetteRight {
+right:0
+}
+
+#manetteLeft img,#manetteRight img {
+height:200px;
+width:200px
+}
+
+#btnParcours img,#btnPortfolio img,#btnPresentation img,#btnSiteWeb img,#btnContact img{
+width:35px;
+height:35px;
+position: absolute;
+left: 2px;
+
+top: 2px;
+}
+#btnPolitique img,#btnMention img {
+	position: absolute;
+
+left: 2px;
+
+top: 2px;
+width:40px;
+height:40px
+}
+#btnParcours,#btnPortfolio,#btnPresentation,#btnSiteWeb,#btnContact,#btnPolitique,#btnMention {
+position:absolute;
+z-index:1000;
+
+box-shadow:2px 2px 5px #000;
+background-color:#0b0a0a;
+text-align:center;
+cursor:pointer
+}
+#btnParcours,#btnPortfolio,#btnPresentation,#btnSiteWeb,#btnContact{
+	border-radius:39px;
+width:39px;
+height:39px;
+}
+#btnPolitique,#btnMention {
+border-radius:45px;
+width: 45px;
+height: 45px;
+}
+#decoCoeur {
+position:absolute;
+top:5px;
+left:5px;
+width:140px;
+height:80px;
+z-index:2
+}
+
+#decoShibi {
+position:absolute;
+top:5px;
+right:5px;
+width:140px;
+height:80px;
+z-index:2
+}
+
+#decoCoeur img,#decoShibi img {
+width:100%
+}
+
+div#menuLeft {
+width:170px;
+height:180px;
+position:absolute;
+left:20%;
+bottom:0
+}
+
+div#menuRight {
+width:170px;
+height:200px;
+position:absolute;
+right:23%;
+bottom:0
+}
+
+div#menuStarSelect {
+left:50%;
+right:50%;
+transform:translateX(-50%);
+height:200px;
+position:absolute;
+z-index:999;
+width:180px;
+bottom:0
+}
+
+div#menuStarSelect div.startMenu.secondBtn,div#menuStarSelect div.startMenu.firstBtn {
+border-radius:40px;
+position:absolute;
+z-index:1000;
+width:70px;
+height:18px;
+transform:rotate(-25deg);
+box-shadow:2px 2px 5px #000;
+background-color:#000
+}
+
+div#menuStarSelect div.startMenu.secondBtn img,div#menuStarSelect div.startMenu.firstBtn img {
+position:absolute;
+width:70px;
+height:18px
+}
+
+div#menuStarSelect span#btn_grap,div#menuStarSelect span#btn_tattoo {
+display:none;
+color:#7451eb;
+top:25px;
+position:absolute;
+left:-10px;
+cursor:pointer
+}
+
+div#menuStarSelect hr {
+display:none;
+position:absolute;
+color:#a992f4;
+top:40px;
+left:-10px;
+width:0;
+height:0;
+opacity:0
+}
+
+div#menuStarSelect	div.firstBtn {
+bottom:125px;
+left:0
+}
+
+div#menuStarSelect	div.secondBtn {
+bottom:90px;
+left:80px
+}
+
+#btnParcours {
+top:8px;
+left:60px
+}
+
+#btnPortfolio {
+top:53px;
+left:10px
+}
+
+#btnPresentation {
+top:53px;
+left:60px
+}
+
+#btnSiteWeb {
+top:53px;
+left:110px
+}
+
+#btnContact {
+top:100px;
+left:60px
+}
+
+#btnPolitique {
+bottom:70px;
+right:60px
+}
+
+#btnMention {
+bottom:120px;
+right:20px
+}
+
+#containeSlider {
+overflow:hidden;
+display:block;
+position:relative;
+border-radius: 10px 10px 60px 10px;
+background:#fff
+}
+
+#slider {
+align-items:center;
+width:300%;
+height:300%;
+position:absolute;
+left:50%;
+right:50%;
+top:-100%;
+flex-wrap:nowrap;
+transform:translateX(-50%)
+}
+
+#slider > div {
+display:flex
+}
+
+#presentation,#portfolio,#contact,#parcours,#siteWeb {
+height:2000px;
+width:1000px;
+position:relative;
+font-size:initial;
+box-shadow:0 0 20px 10px rgba(0,0,0,0.49) inset
+}
+
+.flexColumn {
+display:flex;
+flex-direction:column
+}
+
+.flexRow {
+display:flex;
+flex-direction:row
+}
+
+header {
+width:100%;
+position:fixed;
+top:0;
+z-index:145
+}
+
+header #logo {
+position:absolute;
+top:25px;
+z-index:225
+}
+
+header #logo img {
+width:300px;
+transform:rotate(-10deg)
+}
+
+.slidePortfolio {
+border-radius:10px;
+text-align:center;
+overflow-y:scroll;
+position:relative;
+box-shadow:0 0 20px 10px rgba(64,63,63,0.82) inset;
+background:#000000ba;
+margin:30px;
+border:2px solid #00000082;
+}
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+#presentation {
+text-align:center;
+background:url(../img/fond/scotch.jpg) no-repeat;
+background-size:cover
+}
+
+#presentation #fondPanneau {
+position:absolute;
+z-index:0;
+justify-content:center;
+align-items:center
+}
+
+#presentation #fondPanneau img {
+object-fit:contain;
+height:auto;
+max-height:100%
+}
+
+#presentation .slidePortfolio {
+overflow-y:hidden;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center
+}
+
+#presentation #btnPanneau {
+position:absolute;
+height:100%;
+z-index:1
+}
+
+#presentation #btnPanneau img {
+position:absolute;
+height:50px
+}
+
+#presentation #btnPanneau #linkParcours {
+top:31%;
+transform:rotate(-10deg);
+left:25%
+}
+
+#presentation #btnPanneau #linkWeb {
+top:10%;
+left:30%;
+transform:rotate(-3deg)
+}
+
+#presentation #btnPanneau #linkContact {
+top:47%;
+transform:rotate(27deg);
+left:52%
+}
+
+#presentation #btnPanneau #linkPort {
+top:50%;
+transform:rotate(4deg);
+left:15%
+}
+
+#presentation #btnPanneau img:hover {
+cursor:pointer
+}
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+#parcours #cercle {
+height:500px;
+position:relative;
+width:600px
+}
+
+#bulleCercle {
+background-color:#fffffff2;
+position:absolute;
+width:0;
+height:0;
+z-index:10;
+left:50%;
+right:50%;
+top:50%;
+bottom:50%;
+box-shadow:0 0 10px #360551;
+border-radius:5px;
+margin:auto;
+text-align:center;
+transform:translateX(-50%)
+}
+
+#bulleCercle > div {
+display:none;
+height:100%
+}
+
+#bulleCercle h5 {
+font-family:'Northingtown';
+margin:5px;
+font-size:1.6em;
+color:#7451eb;
+}
+
+#bulleCercle span {
+color:#006b8c
+}
+
+#bulleCercle div.flexColumn {
+justify-content:center;
+align-items:center;
+height:100%
+}
+
+#bulleCercle .legende {
+font-size:.8em
+}
+
+#parcours #bulleCercle p span.showGraph,#parcours #bulleCercle p span.showSite {
+color:#006b8c;
+cursor:pointer
+}
+
+#parcours #fondCercle {
+height:100%;
+width:600px;
+position:absolute;
+top:0;
+background:url(../img/cercle.png) no-repeat;
+background-size:600px 500px;
+opacity:.75;
+z-index:0
+}
+
+#parcours #btnCercle {
+z-index:1;
+height:100%;
+width:100%;
+text-align:center;
+position:relative
+}
+
+#parcours #fondCercle img {
+height:100%;
+width:100%
+}
+
+#parcours .competence {
+justify-content:center;
+align-items:center;
+margin-top: 20px;
+border-top:2px dashed #c8c6ff;
+padding-top:20px;
+}
+#parcours .competence > p{
+width:70%;
+text-align: center;
+}
+#parcours #btnCercle div.pictoComp {
+position:absolute;
+height:40px;
+width:40px
+}
+
+#parcours #btnCercle div.pictoComp span {
+font-size:2.2em;
+cursor:pointer;
+text-shadow:0 0 5px #006b8c;
+animation:birdSe2 7s 0s linear infinite
+}
+
+#parcours #btnCercle #menuCercle h4,#parcours #btnCercle div.pictoComp span, #contact #linkedin span {
+-webkit-transition:all .2s;
+-moz-transition:all .2s;
+-o-transition:all .2s;
+transition:all .2s
+}
+
+#parcours #btnCercle div.pictoComp span:hover {
+color:#fff
+}
+
+#parcours #btnCercle #menuCercle {
+top:0;
+position:absolute;
+bottom:unset;
+transform:unset;
+height:20px;
+left:unset;
+right:unset;
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+width:100%
+}
+
+#parcours #btnCercle #menuCercle div {
+text-align:center;
+margin:auto
+}
+
+#parcours h3, #parcours h4{
+margin:0;
+cursor:pointer;
+text-shadow:0 0 3px #000;
+font-family:'Northingtown';
+font-size:1.6em
+}
+#parcours div.competence h3{
+	cursor:default;
+}
+#parcours div.competence h4{
+	cursor:pointer;
+	font-weight: initial;
+font-size: 1.4em;
+}
+
+#menuCercle > div:nth-child(1) > hr:nth-child(2) {
+margin:0;
+color:#fff;
+text-shadow:0 0 3px #000
+}
+
+#menuCercle > div:nth-child(2) > h4:nth-child(1) {
+color:#fff;
+text-shadow:0 0 3px #000
+}
+
+#menuCercle > div:nth-child(2) > hr:nth-child(2) {
+margin:0;
+color:#fff;
+display:none
+}
+
+#parcours #btnCercle #compA {
+top:114px;
+left:70px
+}
+
+#parcours #btnCercle #compB {
+top:82px;
+left:280px
+}
+
+#parcours #btnCercle #compC {
+top:64px;
+left:448px
+}
+
+#parcours #btnCercle #compD {
+top:362px;
+left:190px
+}
+
+#parcours #btnCercle #compE {
+top:144px;
+left:220px
+}
+
+#parcours #btnCercle #compF {
+top:281px;
+left:382px
+}
+
+#parcours #btnCercle #compG {
+top:154px;
+left:436px
+}
+
+#parcours #btnCercle #compH {
+top:429px;
+left:340px
+}
+
+#parcours #btnCercle #compI {
+top:254px;
+left:168px
+}
+
+#parcours #btnCercle #compJ {
+display:none;
+top:144px;
+left:220px
+}
+
+#parcours #btnCercle #compK {
+display:none;
+top:281px;
+left:382px
+}
+
+#parcours #partOne #btnJob,#parcours #partOne #btnForm {
+width:100%
+}
+
+#parcours #partOne {
+width:100%;
+justify-content:start;
+align-items:center;
+position:relative;
+margin:auto;
+/*overflow: hidden;*/
+}
+
+#parcours #titleExp,#parcours #titleForm {
+text-align:center;
+margin:auto;
+width:100%;
+height:60px
+}
+
+#btnJobForm {
+width:100%;
+height:60px;
+top:0
+}
+
+#btnJobForm h3:hover {
+cursor:pointer;
+color:#a992f4;
+text-shadow:0 0 3px black;
+-webkit-transition:all .2s;
+-moz-transition:all .2s;
+-o-transition:all .2s;
+transition:all .2s
+}
+
+#btnComp h3:hover {
+cursor:pointer;
+-webkit-transition:all .2s;
+-moz-transition:all .2s;
+-o-transition:all .2s;
+transition:all .2s
+}
+
+#btnJobForm hr,#btnComp hr {
+opacity:0
+}
+
+#parcours > div.slidePortfolio {
+justify-content:center;
+text-align:left;
+align-items:center
+}
+
+#parcours div:nth-child(1) > p:nth-child(1) {
+margin-top:20px;
+margin-bottom:20px;
+text-align:center
+}
+
+#parcours > div:nth-child(1) > div:nth-child(1) {
+width:100%;
+margin:auto
+}
+
+#parcours p a {
+color:#c8c6ff
+}
+
+#parcours > div > p {
+margin:20px
+}
+
+#parcours p a:hover {
+text-decoration:underline
+}
+
+#parcours p a span {
+color:#fff
+}
+
+#parcours p span {
+color:#c8c6ff
+}
+#divParcours, #divJob{
+overflow: hidden;
+    height: 0px;
+}
+#parcours #parcoursForm,#parcours #parcoursJob {
+opacity: 0;
+}
+
+#parcours #divJobForm {
+justify-content:start;
+}
+
+#parcours #parcoursForm div.hideChild,#parcours #parcoursJob div.hideChild {
+margin-bottom:10px;
+text-align:left;
+color:#eaeaea;
+position:relative;
+width: 100%;
+margin: auto;
+flex: 1;
+margin-bottom: 15px;
+}
+
+#parcours #parcoursForm div.hideChild > div.flexRow,#parcours #parcoursJob div.hideChild > div.flexRow {
+height:100%;
+min-height: initial;
+}
+
+#parcours #parcoursForm div.hideChild p,#parcours #parcoursJob div.hideChild p {
+margin: 1px;
+}
+
+#parcours #parcoursForm > div.flexRow,#parcours #parcoursJob > div.flexRow {
+margin-top:20px;
+align-items:center;
+justify-content:center
+}
+
+#parcours #parcoursForm div div.flexColumn {
+text-align:left
+}
+
+#parcours #parcoursForm div div.flexColumn.hideJob,#parcours #parcoursJob div div.flexColumn.hideJob {
+height:100%;
+margin: auto;
+margin-left:0;
+}
+
+#parcours #parcoursForm #titleExp p,#parcours #parcoursJob #titleForm p {
+margin:0;
+width:12px
+}
+
+#parcours .dateJob {
+border:2px solid #a992f4;
+border-radius:10px;
+width:50px;
+text-align:center;
+height:min-content;
+font-size:.7em;
+margin-right:20px;
+margin-top:5px;
+background-color:#410091c7;
+box-shadow:2px 2px 2px #000
+}
+
+#parcours .titleJob {
+font-weight:700;
+text-shadow:1px 1px 2px #000
+}
+
+#parcours div div.diplome {
+background-color:#C4EEF1;
+margin-top:0;
+padding:20px;
+height:100%
+}
+
+#parcours hr {
+margin:0;
+color:#a992f4
+}
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+#portfolio {
+background:url(../img/fond/meian.jpg) no-repeat;
+background-size:cover
+}
+
+#portfolio .banniere {
+position:absolute;
+top:-20px;
+right:-40px;
+transform:rotateZ(10deg);
+width:350px
+}
+
+#portfolio #containImg {
+margin:auto;
+display:flex;
+justify-content:center;
+align-content:space-around;
+flex-wrap:wrap;
+width:100%
+}
+
+#portfolio .portfolioImg {
+position:relative;
+overflow:hidden;
+width:250px;
+height:150px;
+margin:10px;
+z-index:210
+}
+
+#portfolio #containImg img {
+width:110%;
+position:absolute;
+left:0;
+-webkit-transition:all 3s;
+-moz-transition:all 3s;
+-o-transition:all 3s;
+transition:all 3s
+}
+
+#portfolio #menuPortFolio {
+position:relative;
+z-index:101;
+width:100%
+}
+
+#portfolio .slideInside {
+text-align:center;
+width:100%
+}
+
+#portfolio .slidePortfolio img {
+height:150px;
+cursor:pointer
+}
+
+.slidePortfolio div#slide_grap,.slidePortfolio div#slide_tattoo {
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+position:relative;
+width:100%;
+padding: 20px 0; 
+}
+
+#menuPortFolio .slidePortfolio div#slide_web {
+opacity:9;
+z-index:105
+}
+
+.slidePortfolio div#slide_tattoo {
+opacity:0;
+z-index:104;
+display:none
+}
+
+.slidePortfolio div#slide_grap div.thumbnail,.slidePortfolio div#slide_tattoo div.thumbnail {
+position:relative;
+height:180px;
+overflow:hidden;
+width:100px;
+margin:0 20px
+}
+
+.slidePortfolio div#slide_grap div.thumbnail img,.slidePortfolio div#slide_tattoo div.thumbnail img {
+right:50%;
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+z-index:100
+}
+
+.slidePortfolio div#slide_grap div p,.slidePortfolio div#slide_tattoo div p {
+width:100%;
+margin-top:30px;
+opacity:0;
+color:#00565e
+}
+
+.slidePortfolio div#slide_web div p span:hover {
+cursor:pointer;
+color:#33CED4;
+-webkit-transition:all .3s;
+-moz-transition:all .3s;
+-o-transition:all .3s;
+transition:all .3s
+}
+
+.slidePortfolio div#fullImgTattoo,.slidePortfolio div#fullImgGrap {
+position:fixed;
+width:100%;
+z-index:106;
+display:none
+}
+
+.slidePortfolio div#fullImgTattoo div,.slidePortfolio div#fullImgGrap div {
+position:absolute;
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+height:100%;
+background-color:#000000bd;
+border-radius:10px
+}
+
+.slidePortfolio div#fullImgTattoo div img,.slidePortfolio div#fullImgGrap div img {
+border-radius:10px
+}
+
+.dark_background {
+background-color:#000000ba;
+height:100%;
+width:100%
+}
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+#siteWeb {
+background:url(../img/fond/tache.jpg) no-repeat;
+background-size:cover
+}
+
+#siteWeb > div:nth-child(1) {
+position:relative;
+z-index:101;
+width:100%
+}
+
+#siteWeb ul {
+list-style:circle;
+list-style-position:outside;
+list-style-position:inside;
+padding:0 10px
+}
+
+.slidePortfolio > div#slide_web.flexColumn {
+width:100%;
+position:relative
+}
+
+.slidePortfolio div.flexColumn #containtPictoSiteWeb div#pictoSiteWeb {
+position:absolute;
+flex-wrap:nowrap;
+justify-content:flex-start;
+align-items:center;
+height:100%
+}
+
+.slidePortfolio div.flexColumn #containtPictoSiteWeb {
+position:absolute;
+overflow:hidden;
+left:0;
+top:0
+}
+
+.slidePortfolio div.flexColumn div#descSiteWeb {
+position:relative;
+top:210px
+}
+
+#descSiteWeb > div {
+display:none
+}
+
+.slidePortfolio div.flexColumn #legendeSiteWeb {
+display:block;
+margin-bottom:15px
+}
+
+.slidePortfolio div.flexColumn div#pictoSiteWeb div {
+width:170px;
+height:170px;
+position:relative;
+overflow:hidden;
+margin:0 20px
+}
+
+.slidePortfolio div#slide_web div#containtPictoSiteWeb img {
+right:50%;
+position:absolute;
+left:50%;
+bottom:5px;
+transform:translateX(-50%);
+height:150px;
+width:170px;
+z-index:100;
+cursor:initial
+}
+
+#siteWeb #containtPictoSiteWeb #pictoSiteWeb div span {
+font-size:2em;
+color:#a992f4
+}
+
+#siteWeb #containtPictoSiteWeb #pictoSiteWeb div a {
+position:absolute;
+z-index:90;
+top:25%;
+padding:10px;
+left:15%;
+color:#a992f4;
+width:80px
+}
+
+
+#siteWeb .slidePortfolio #slide_web #descSiteWeb div span {
+font-size:2em;
+margin:0 10px
+}
+
+#siteWeb .slidePortfolio #slide_web #descSiteWeb div img.imgPhp {
+height:30px;
+width:auto;
+position:relative;
+left:initial;
+right:initial;
+bottom:initial;
+transform:initial
+}
+
+#siteWeb .slidePortfolio #slide_web #descSiteWeb div div.flexRow {
+width:100%;
+justify-content:center;
+height:30px;
+align-items:center
+margin-bottom: 10px;
+}
+#siteWeb h2.titleSite{
+	font-weight: normal;
+}
+#siteWeb .titleSite {
+font-size:2em;
+margin-top:5px
+}
+
+#siteWeb .titleSite,#siteWeb .titleSite a {
+color:#a992f4;
+font-family:'Northingtown';
+text-shadow:0 0 5px #000
+}
+#siteWeb .titleSite h2{
+	font-weight: initial;
+}
+#siteWeb .titleSite a:hover {
+text-decoration:underline;
+text-shadow:none
+}
+
+#siteWeb .legende {
+font-size:.8em;
+color: #c8c6ff;
+}
+
+#siteWeb .underline {
+color:#c8c6ff
+}
+
+#siteWeb div.flexRow.logoRef {
+margin-top:10px
+}
+
+#siteWeb div.flexRow.logoRef img {
+height:auto;
+width:auto;
+max-height:30px;
+position:relative;
+bottom:auto;
+right:auto;
+left:auto;
+transform:unset;
+margin:0 10px
+}
+
+
+#decoCiseaux {
+position:relative;
+top:185px
+}
+
+#decoCiseaux span#ciseaux {
+font-size:1.8em;
+position:absolute;
+color:#c8c6ff;
+left:15px;
+text-shadow:1px 1px 2px #000
+}
+#btnsliderWeb {
+border-bottom:2px dashed #c8c6ff;
+width:100%;
+justify-content:center;
+position:relative;
+top:200px;
+height: 70px;
+align-items: center;
+}
+.slidePortfolio div#slide_web #btnsliderWeb div{
+	-webkit-transition:all 0.2s;
+-moz-transition:all 0.2s;
+-o-transition:all 0.2s;
+transition:all 0.2s
+	height:50px;
+	width:50px;
+	margin: 0 20px;
+border-radius: 5px;
+}
+.slidePortfolio div#slide_web #btnsliderWeb div:hover{
+box-shadow: 0 0 5px rgb(255, 255, 255);
+	}
+.slidePortfolio div#slide_web #btnsliderWeb img{
+	height:50px;
+	width:50px;
+}
+
+#siteWeb .slidePortfolio #slide_web #descSiteWeb #legendeSiteWeb li span {
+text-shadow:0 0 5px #000;
+padding:20px;
+font-size:initial;
+padding:0 5px;
+margin:0;
+color:#c8c6ff
+}
+
+#siteWeb #descSiteWeb p {
+margin-left:10px;
+margin-right:10px
+}
+
+#btnsliderWeb span:hover,#siteWeb .slidePortfolio #slide_web #descSiteWeb #legendeSiteWeb li span:hover {
+color:#fff;
+cursor:pointer;
+text-shadow:0 0 15px #fff
+}
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+#contact {
+position:relative;
+background:url(../img/fond/fondContact.jpg) no-repeat;
+background-size:cover
+}
+
+
+#contact #confirmSendMail p{
+	display: none;
+	color: #a992f4;
+	font-size: 1.5em;
+}
+#contact #parchemin {
+position:relative;
+text-align:center;
+width:70%;
+background-position:center;
+height:300px
+}
+
+#contact .slidePortfolio img {
+height:150px;
+cursor:pointer
+}
+
+#contact #parchemin img {
+position:relative;
+width:90%;
+z-index:0;
+height:250px
+}
+#contact #confirmSendMail{
+	position: fixed;
+	background-color: #000000cf;
+align-items: center;
+z-index: 2000;
+justify-content: center;
+margin: auto;
+	height:0px;
+	width:0px;
+bottom:165px;
+right:0
+
+} 
+#contact #pigeon {
+position:fixed;
+bottom:164px;
+z-index:1000
+}
+
+#contact #pigeon img {
+position:absolute;
+bottom:0;
+right:0
+}
+
+#contact #formulaire #pigeon button {
+background-color:transparent;
+border:0;
+padding:0
+}
+
+#contact .slideInside {
+display:flex;
+width:100%;
+align-items:center;
+position:absolute;
+top: 0;
+height:100%
+}
+
+#contact .formContact #formulaire {
+width:100%;
+justify-content:space-evenly;
+margin-top:15px
+}
+
+#contact .formContact #formulaire > div.flexColumn {
+width:40%
+}
+
+#contact > div {
+position:relative
+}
+
+#contact form textarea {
+padding:10px;
+position:absolute;
+height:160px;
+z-index:2;
+width:70%;
+left:50%;
+right:50%;
+transform:translateX(-50%);
+bottom:31px;
+border-radius:5px;
+border-style:none;
+background-color:#ffffff2b;
+color:#fff;
+font-family:'Nunito',sans-serif;
+font-size:.9em
+}
+
+#contact form input {
+height:45px;
+border-radius:5px;
+box-shadow:2px 2px 5px #200146;
+margin-bottom:20px;
+padding-left:10px;
+background-color:#fff;
+color:#6000c1;
+object-fit: contain;
+}
+
+#contact label {
+font-size:1.8em;
+font-family:'Northingtown';
+}
+
+#contact form input:focus,#contact form textarea:focus {
+background-color:#ffffffa6
+}
+#contact #txtContact{
+	width:80%;
+}
+#contact form textarea:focus {
+color:#000
+}
+
+#contact form div.messErrorForm {
+height:20px
+}
+
+#contact form p.userMail, #contact form p.userName,#contact form p.userMess {
+font-size:.9em;
+margin:0;
+color:#93d2e3;
+}
+#contact #linkedin {
+	width: 100%;
+text-align: center;
+height: 50px;
+position: relative;
+
+z-index: 2;
+}
+#contact #linkedin a{
+color: white;
+padding: 20px 10px;
+	}
+#contact #linkedin span{
+	cursor: pointer;
+	font-size: 2em;
+	padding: 10px;
+	text-shadow: 0px 0px 5px black;
+}
+#contact #linkedin span:hover{
+color:#a992f4;
+	}
+
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+
+#politique,#mention {
+
+position:relative;
+background:url(../img/fond/scotch.jpg) no-repeat;
+background-size:cover
+}
+
+#politique a,#mention a {
+color:#c8c6ff
+}
+
+#politique h2,#mention h2 {
+font-family:'Northingtown';
+font-size:2em;
+font-weight: normal;
+}
+
+#mention .slidePortfolio div div.flexColumn,#politique .slidePortfolio div div.flexColumn {
+width:100%;
+justify-content:center;
+align-items:flex-start
+}
+
+#mention .slidePortfolio div div.flexColumn > div,#politique .slidePortfolio div div.flexColumn > div {
+margin-bottom:20px
+}
+
+#mention .slidePortfolio div div.flexColumn div div,#politique .slidePortfolio div div.flexColumn div div {
+float:left;
+margin-right:20px
+}
+
+#politique p,#mention p {
+margin:0;
+margin-left:15px;
+text-align:left;
+flex:0
+}
+
+#politique p.textBold,#mention p.textBold {
+font-weight:700;
+margin-left:0;
+color:#c8c6ff;
+text-decoration:underline;
+flex:1
+}
+
+#politique .slidePortfolio,#mention .slidePortfolio {
+padding:0 15px
+}
+/**********************************************************************************************************************************
+
+**********************************************************************************************************************************/
+
+@keyframes birdSe2 {
+0% {
+color:#fff
+}
+
+25% {
+color:#5197ac
+}
+
+50% {
+color:#fff
+}
+
+75% {
+color:#5197ac
+}
+
+100% {
+color:#fff
+}
+}
+
+
+@keyframes birdSe {
+0% {
+color:#fff
+}
+
+25% {
+color:#b173f0
+}
+
+50% {
+color:#fff
+}
+
+75% {
+color:#b173f0
+}
+
+100% {
+color:#fff
+}
+}
+
+/**********************************************************************************************************************************
+MEDIA QUERIES TABLETTE
+**********************************************************************************************************************************/
+
+@media screen and (max-width: 992px) {
+	#parcours div#hideComp div.grpCompSolo p
+	{
+		font-size:.9em;
+		margin-left:50px
+	}
+	
+	#parcours div#grpComp.flexRow div.flexColumn.grpCompSolo.dessin div.flexRow.flexPart
+	{
+		flex-direction:column
+	}
+	
+	#parcours #hideComp div#grpComp.flexRow div.flexColumn.grpCompSolo div.flexRow.flexPart div div
+	{
+		margin-top:10px
+	}
+	
+	#parcours #grpComp.flexRow div.flexColumn.grpCompSolo.dessin div.flexRow.flexPart div
+	{
+		margin-top:10px
+	}
+	
+	div#menuLeft
+	{
+		left:10%
+	}
+	
+	div#menuRight
+	{
+		right:10%
+	}
+}
+
+
+/**********************************************************************************************************************************
+MEDIA QUERIES MOBILE
+**********************************************************************************************************************************/
+
+@media screen and (max-width:767px) {
+.slidePortfolio img {
+height:100px
+}
+
+.slidePortfolio div#slide_grap div.thumbnail,.slidePortfolio div#slide_tattoo div.thumbnail {
+height:100px;
+width:80px;
+margin:5px
+}
+
+#portfolio .slidePortfolio img {
+
+    height: 100px;
+    }
+
+#parcours > div {
+justify-content:unset
+}
+
+#contact #parchemin {
+width:100%;
+height: 280px;
+}
+
+#contact #parchemin img {
+width:100%
+}
+
+#parcours #cercle {
+height:400px;
+width:450px
+}
+
+#parcours #fondCercle {
+height:100%;
+width:450px;
+background-size:450px 400px
+}
+
+#parcours #btnCercle #menuCercle {
+top:-10px
+}
+
+#parcours #btnCercle div.pictoComp span {
+font-size:2.1em
+}
+
+#parcours #btnCercle #compA {
+top:89px;
+left:48px
+}
+
+#parcours #btnCercle #compB {
+top:62px;
+left:205px
+}
+
+#parcours #btnCercle #compC {
+top:48px;
+left:332px
+}
+
+#parcours #btnCercle #compG {
+top:121px;
+left:322px
+}
+
+#parcours #btnCercle #compE {
+top:113px;
+left:160px
+}
+
+#parcours #btnCercle #compI {
+top:200px;
+left:120px
+}
+
+#parcours #btnCercle #compD {
+top:285px;
+left:137px
+}
+
+#parcours #btnCercle #compF {
+top:340px;
+left:250px
+}
+
+#parcours #btnCercle #compH {
+top:221px;
+left:282px
+}
+
+#parcours #btnCercle #compJ {
+display:none;
+top:113px;
+left:160px
+}
+
+#parcours #btnCercle #compK {
+display:none;
+top:340px;
+left:250px
+}
+
+#bulleCercle .legende {
+margin:0
+}
+
+div#menuLeft {
+left:0
+}
+
+div#menuRight {
+right:0
+}
+
+div#menuStarSelect {
+left:55%;
+right:45%
+}
+
+#decoCoeur {
+width:120px;
+height:70px
+}
+
+#decoShibi {
+width:120px;
+height:70px
+}
+
+#parcours #partOne {
+flex-direction:column
+}
+
+#parcours h3 {
+font-size:1.3em
+}
+
+#parcours #parcoursForm div.hideChild,#parcours #parcoursJob div.hideChild {
+width:100%
+}
+
+#parcours #parcoursForm,#parcours #parcoursJob {
+width:90%;
+align-items:center;
+margin:auto
+}
+
+#detecteMobile {
+height:0;
+display:block
+}
+
+#contact #pigeon img {
+height: 120px;
+}
+
+#contact form div.messErrorForm {
+height: 20px;
+}
+.slidePortfolio div#slide_web div#containtPictoSiteWeb img {
+height: 115px;
+width:140px;
+}
+.slidePortfolio div.flexColumn div#pictoSiteWeb div {
+margin: 0 10px;
+    width: 170px;
+    height: 140px;
+    }
+#btnsliderWeb {
+top: 170px;
+}
+#decoCiseaux {
+position: relative;
+top: 155px;
+}
+.slidePortfolio div.flexColumn div#descSiteWeb {
+    top: 180px;
+}
+.slidePortfolio div.flexColumn #containtPictoSiteWeb {
+    top: 20px;
+}
+.slidePortfolio div#slide_web #btnsliderWeb div {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
+.slidePortfolio div#slide_web #btnsliderWeb img {
+    height: 30px;
+    width: 30px;
+}
+#contact #linkedin span {
+    padding: 0 10px;
+}
+#contact form textarea {
+bottom: 18px;
+	}
+#contact #txtContact{
+	margin-top: 30px;
+}
+}
+
+
+/**********************************************************************************************************************************
+MEDIA QUERIES MOBILE XS
+**********************************************************************************************************************************/
+
+@media screen and (max-width:499px) {
+#manetteLeft,#manetteRight {
+display:none
+}
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+#portfolio nav {
+justify-content:flex-end
+}
+
+#parcours > div:nth-child(1) > div:nth-child(1) {
+width:100%
+}
+
+#parcours h2 {
+font-size:1.3em
+}
+
+#portfolio nav span {
+padding:10px
+}
+
+#parcours #job,#parcours #diplome {
+padding:10px
+}
+
+#parcours #cercle {
+height:300px;
+width:350px
+}
+
+#parcours #fondCercle {
+height:100%;
+width:350px;
+background-size:350px 300px
+}
+
+#parcours #btnCercle #menuCercle {
+top:-10px;
+position:absolute;
+bottom:unset;
+transform:unset;
+height:20px;
+left:unset;
+right:unset;
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+width:100%
+}
+
+#parcours #btnCercle div.pictoComp span {
+font-size:1.8em
+}
+
+#parcours #btnCercle #compA {
+top:65px;
+left:33px
+}
+
+#parcours #btnCercle #compB {
+top:44px;
+left:155px
+}
+
+#parcours #btnCercle #compC {
+top:33px;
+left:253px
+}
+
+#parcours #btnCercle #compG {
+top:89px;
+left:247px
+}
+
+#parcours #btnCercle #compE {
+top:82px;
+left:120px
+}
+
+#parcours #btnCercle #compI {
+top:147px;
+left:90px
+}
+
+#parcours #btnCercle #compD {
+top:213px;
+left:102px
+}
+
+#parcours #btnCercle #compF {
+top:164px;
+left:215px
+}
+
+#parcours #btnCercle #compH {
+top:253px;
+left:190px
+}
+
+#parcours #btnCercle #compJ {
+display:none;
+top:82px;
+left:120px
+}
+
+#parcours #btnCercle #compK {
+display:none;
+top:164px;
+left:215px
+}
+
+#btnJobForm {
+margin-bottom:10px;
+width:100%;
+top:0;
+flex-direction:column;
+position:relative;
+height:60px
+}
+
+#parcours #titleExp,#parcours #titleForm {
+height:30px;
+margin:auto
+}
+
+#parcours p {
+margin:5px 0 5px 60px
+}
+#parcours .competence > p {
+width: 98%;
+margin: 10px 0 20px 0;
+	}
+
+#parcours div:nth-child(1) > p:nth-child(1) {
+margin-left:0
+}
+
+#parcours > div.slidePortfolio {
+text-align:left
+}
+
+#contact .slideInside {
+justify-content:flex-start
+}
+
+#contact .formContact #formulaire {
+align-items:center;
+flex-direction:column;
+height:230px;
+position: static;
+
+}
+
+#contact label {
+font-size:1.5em;
+display: inline-block;
+height: 20px;
+line-height: 20px;
+}
+
+#contact form input {
+height:30px;
+margin-bottom:10px;
+display: block;
+font-size: 13px;
+padding: 5px 10px;
+display: inline-block;
+line-height: 20px;
+background-clip: padding-box;
+font-weight: 400;
+}
+
+
+#contact .formContact  #formulaire > div.flexColumn {
+width:90%;
+height: 115px;
+position: relative;
+min-height:0;
+min-width:0;
+}
+
+div#menuStarSelect {
+left:55%;
+right:45%;
+width:150px
+}
+
+
+div#menuStarSelect div.startMenu.secondBtn,div#menuStarSelect div.startMenu.firstBtn {
+transform:rotate(0deg)
+}
+
+div#menuStarSelect div.firstBtn {
+bottom:150px;
+left:12px
+}
+
+div#menuStarSelect div.secondBtn {
+left:105px;
+bottom:150px
+}
+
+div#menuStarSelect span#btn_grap {
+left:-2px;
+top:20px;
+font-size:.8em;
+}
+
+div#menuStarSelect span#btn_tattoo {
+left:2px;
+top:20px;
+font-size:.8em;
+}
+
+#btnPolitique {
+bottom:50px;
+right:70px;
+}
+
+#btnMention {
+bottom:90px;
+right:25px;
+}
+
+div#menuStarSelect hr {
+top:30px;
+left:0
+}
+
+#parcours #hideComp div#grpComp.flexRow div.flexColumn.grpCompSolo div.flexRow.flexPart div div,#parcours #grpComp.flexRow div.flexColumn.grpCompSolo.dessin div.flexRow.flexPart div {
+margin-top:10px
+}
+
+#decoCoeur {
+width:100px;
+height:60px
+}
+
+#decoShibi {
+width:100px;
+height:60px
+}
+#contact #pigeon img {
+height: 100px;
+}
+#btnsliderWeb span {
+padding: 15px;
+}
+#contact #txtContact{
+	margin-top: 30px;
+	width: 95%;
+}
+}
